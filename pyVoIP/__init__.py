@@ -11,7 +11,7 @@ The higher this variable is, the more often RTP packets are sent.
 This should only ever need to be 0.0. However, when testing on Windows,
 there has sometimes been jittering, setting this to 0.75 fixed this in testing.
 """
-TRANSMIT_DELAY_REDUCTION = 0.0
+TRANSMIT_DELAY_REDUCTION = 0.75
 
 """
 If registration fails this many times, VoIPPhone's status will be set to FAILED
